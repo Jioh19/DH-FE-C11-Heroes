@@ -28,13 +28,13 @@
 			<section class="container">
 				<h2>Añadí tu super!</h2>
 				<h4>Agregá tu personaje favorito completando las opciones.</h4>
-				<form action="#" method="POST">
+				<form action="form.html" method="POST">
 					<div class="forms">
 						<div class="form-container">
 							<label for="nombre">*Nombre</label>
-							<input class="text-input" type="text" id="nnombre" />
+							<input class="text-input" type="text" id="nnombre" required/>
 							<label for="fecha">Fecha</label>
-							<input class="text-input" type="date" id="fecha" />
+							<input class="text-input" type="date" id="fecha" required/>
 							<textarea name="descripción" id="descripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
 						</div>
 						<div class="form-container">
@@ -46,9 +46,8 @@
 							</select>
 							<label for="foto">Agregar Foto</label>
 							<input class="text-input" type="file" id="foto" value="Seleccionar archivo" />
-							<div>
-								<label for="poderes">Poderes</label>
-								<br />
+							<fieldset>
+								<legend>Poderes</legend>
 								<input type="checkbox" name="poderes" id="volar" value="volar" /><span>Volar</span>
 								<br />
 								<input type="checkbox" name="poderes" id="inteligencia" value="inteligencia" /><span>SuperInteligencia</span>
@@ -56,15 +55,14 @@
 								<input type="checkbox" name="poderes" id="vista" value="vista" /><span>Vista de rayo láser</span>
 								<br />
 								<input type="checkbox" name="poderes" id="billetera" value="billetera" /><span>Billetera Gorda</span>
-							</div>
+							</fieldset>
 							<hr />
-							<div>
-								<label for="personaje">Tipo de personaje</label>
-								<br />
+							<fieldset>
+								<legend>Tipo de personaje</legend>
 								<input type="radio" name="tipo" vakue="heroe" /><span>Héroe / Heroína</span>
 								<br />
 								<input type="radio" name="tipo" value="villano" /><span>Villano / Villana</span>
-							</div>
+							</fieldset>
 						</div>
 					</div>
 					<button class="submit" type="submit">Añadir</button>

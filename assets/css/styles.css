@@ -91,7 +91,7 @@ a {
 
 main {
 	display: flex;
-	padding-block: 8rem 4rem;
+	padding-block: 8rem 3rem;
 }
 .cards {
 	display: flex;

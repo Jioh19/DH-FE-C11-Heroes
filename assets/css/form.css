@@ -53,3 +53,7 @@ span {
     background-color: var(--header-color-secondary);
     border-radius: 10px;
 }
+
+fieldset {
+    border: none;
+}
