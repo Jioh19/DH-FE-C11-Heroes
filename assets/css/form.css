@@ -1,0 +1,55 @@
+.container {
+    height: 510px;
+    width: 700px;
+    margin: auto;
+    margin-block: 1.5rem 1rem;
+    box-shadow: 0px 0px 2px 1px #0000004D;
+    border-radius: 30px;
+    background-color: var(--header-color-primary);
+    color: white;
+    text-align: center;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0.5rem 3rem;
+}
+h4 {
+    font-weight: 100;
+}
+
+.form-container {
+    display: flex;
+    gap: 0.75rem;
+    flex-direction: column;
+    text-align: left;
+    width: 45%;
+}
+
+.text-input, textarea, select {
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.text-input, select {
+    height: 3rem;
+}
+
+span {
+    margin-inline: 0.5rem;
+}
+
+.submit {
+    border: none;
+    height: 3rem;
+    width: 12rem;
+    font-size: larger;
+    font-weight: bold;
+    background-color: var(--header-color-secondary);
+    border-radius: 10px;
+}
