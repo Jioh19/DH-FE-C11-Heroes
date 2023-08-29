@@ -28,46 +28,47 @@
 			<section class="container">
 				<h2>Añadí tu super!</h2>
 				<h4>Agregá tu personaje favorito completando las opciones.</h4>
-				<form class="forms" action="#" method="POST">
-					<div class="form-container">
-						<label for="nombre">*Nombre</label>
-						<input class="text-input" type="text" id="nnombre" />
-						<label for="fecha">Fecha</label>
-						<input class="text-input" type="date" id="fecha" />
-						<textarea name="descripción" id="descripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
-					</div>
-					<div class="form-container">
-						<label for="especie">Especie</label>
-						<select class="text-input" name="especie" id="especie" placeholder="Especie">
-							<option value="humano">Humano</option>
-							<option value="kiptoniano">Kriptoniano</option>
-							<option value="marciano">Marciano</option>
-						</select>
-						<label for="foto">Agregar Foto</label>
-						<input class="text-input" type="file" id="foto" value="Seleccionar archivo" />
-						<div>
-							<label for="poderes">Poderes</label>
-                            <br>
-							<input type="checkbox" name="poderes" id="volar" value="volar" /><span>Volar</span>
-                            <br>
-							<input type="checkbox" name="poderes" id="inteligencia" value="inteligencia" /><span>SuperInteligencia</span>
-                            <br>
-							<input type="checkbox" name="poderes" id="vista" value="vista" /><span>Vista de rayo láser</span>
-                            <br>
-							<input type="checkbox" name="poderes" id="billetera" value="billetera" /><span>Billetera Gorda</span>
+				<form action="#" method="POST">
+					<div class="forms">
+						<div class="form-container">
+							<label for="nombre">*Nombre</label>
+							<input class="text-input" type="text" id="nnombre" />
+							<label for="fecha">Fecha</label>
+							<input class="text-input" type="date" id="fecha" />
+							<textarea name="descripción" id="descripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
 						</div>
-                        <hr>
-                        <div>
-                            <label for="personaje">Tipo de personaje</label>
-                            <br>
-                            <input type="radio" name="tipo" vakue="heroe"><span>Héroe / Heroína</span>
-                            <br>
-                            <input type="radio" name="tipo" value="villano"><span>Villano / Villana</span>
-                        </div>
+						<div class="form-container">
+							<label for="especie">Especie</label>
+							<select class="text-input" name="especie" id="especie" placeholder="Especie">
+								<option value="humano">Humano</option>
+								<option value="kiptoniano">Kriptoniano</option>
+								<option value="marciano">Marciano</option>
+							</select>
+							<label for="foto">Agregar Foto</label>
+							<input class="text-input" type="file" id="foto" value="Seleccionar archivo" />
+							<div>
+								<label for="poderes">Poderes</label>
+								<br />
+								<input type="checkbox" name="poderes" id="volar" value="volar" /><span>Volar</span>
+								<br />
+								<input type="checkbox" name="poderes" id="inteligencia" value="inteligencia" /><span>SuperInteligencia</span>
+								<br />
+								<input type="checkbox" name="poderes" id="vista" value="vista" /><span>Vista de rayo láser</span>
+								<br />
+								<input type="checkbox" name="poderes" id="billetera" value="billetera" /><span>Billetera Gorda</span>
+							</div>
+							<hr />
+							<div>
+								<label for="personaje">Tipo de personaje</label>
+								<br />
+								<input type="radio" name="tipo" vakue="heroe" /><span>Héroe / Heroína</span>
+								<br />
+								<input type="radio" name="tipo" value="villano" /><span>Villano / Villana</span>
+							</div>
+						</div>
 					</div>
-                    
+					<button class="submit" type="submit">Añadir</button>
 				</form>
-                <button class="submit" type="submit">Añadir</button>
 			</section>
 			<footer>
 				<p>Todos los derechos reservados a FRONT END 1</p>
