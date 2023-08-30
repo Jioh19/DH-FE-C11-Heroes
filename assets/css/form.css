@@ -70,3 +70,19 @@ input::file-selector-button {
 	background-color: lightgray;
 	border-radius: 5px;
 }
+
+@media (max-width: 600px) {
+	.forms {
+		flex-direction: column;
+	}
+	.container {
+		width: 350px;
+		height: 920px;
+		justify-content: center;
+	}
+
+	.form-container {
+		width: 90%;
+		margin-inline: auto;
+	}
+}
