@@ -81,6 +81,9 @@ input::file-selector-button {
 		justify-content: center;
 	}
 
+	h4 {
+		padding-inline: 2rem;
+	}
 	.form-container {
 		width: 90%;
 		margin-inline: auto;
